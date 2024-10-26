@@ -29,10 +29,10 @@ let faangleright = document.querySelector('.landing .fa-angle-right');
 console.log(faangleright);
 
 faangleleft.onclick = function(){
-    landing.style.backgroundImage = "url('../IMAGES/landing2.jpg')";
+    landing.style.backgroundImage = "url('./IMAGES/landing2.jpg')";
 }
 
 
 faangleright.onclick = function(){
-    landing.style.backgroundImage = "url('../IMAGES/landing.jpg')";
+    landing.style.backgroundImage = "url('./IMAGES/landing.jpg')";
 }
